@@ -14,5 +14,5 @@ class IreadweakItem(scrapy.Item):
     title=scrapy.Field()
     author=scrapy.Field()
     download_link=scrapy.Field()
-    desc=scrapy.Field()
+    description=scrapy.Field()
     category=scrapy.Field()
